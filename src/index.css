@@ -1,8 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+/* css variables */
+:root{
+  --bg-dark: #2e4374;
+  --bg-light: #4b527e;
+  --white: #fff;
+  --dark: #222;
+  --md-dark: #555;
+  --txt-dark: #7c81ad;
+  --txt-light: #e5c3a6;
+  
+  --header-1: 6rem;
+  --header-2: 4rem;
+  --header-3: 2rem;
+
+  --para: 1.2rem;
+
+  --font-we-dark:bold;
+  --font-we-md: 600;
+  --font-we-sm: 400;
+
+  --shadow-light: rgba(100,100,111,0.2)0px 7px 29px 0px;
+  --shadow-md:  rgba(0,0,0.35) 0px 5px 15px;
+  --shadow-dark: rgba(50,50,93,0.25) 0px 50px 100px -20px, rgba(0,0,0.3) 0px 30px 60px -30px;
+
+  --bg-gradient: liner-gradient(to left, var(--bg-dark) ,var(--bg-light), var(--txt-light));
+}
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Nunito",sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
